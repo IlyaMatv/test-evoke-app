@@ -12,16 +12,16 @@ const Footer: React.FC = () => {
                         <NavLink to="/services">Services</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/" href="#">Expertise</NavLink>
+                        <NavLink to="/">Expertise</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/" href="#">Team</NavLink>
+                        <NavLink to="/">Team</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/" href="#">Vacansies</NavLink>
+                        <NavLink to="/">Vacansies</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/" href="#">Contacs Us</NavLink>
+                        <NavLink to="/">Contacs Us</NavLink>
                     </li>
                 </ul>
             </div>
