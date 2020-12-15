@@ -8,7 +8,6 @@ const Header: React.FC = () => {
     return (
         <header className="header">
             <img className="logo" src={logo} alt="logo" />
-
             <Navigation />
         </header >
     )
