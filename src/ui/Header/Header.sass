@@ -4,11 +4,15 @@
     display: flex
     position: relative
     align-items: center
+    justify-content: space-between
     .logo
+        position: relative
         max-width: 120px
         max-height: 120px
         margin: 20px 0 0 100px
         margin-right: auto
+        cursor: pointer
+        z-index: 100
 
 @media screen and (max-width: 915px)
     .header
@@ -19,8 +23,3 @@
     .header
         .logo
             margin: 0 0 0 20px
-
-@media screen and (max-width: 770px)
-    .header
-        .logo
-            z-index: 100
